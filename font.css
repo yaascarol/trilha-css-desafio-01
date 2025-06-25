@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'lemonmilk';
+    src: url(assets/fonts/lemon_milk/LEMONMILK-Regular.otf), url(assets/fonts/lemon_milk/LEMONMILK-Bold.otf), url(assets/fonts/lemon_milk/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: 'Lemonmilk-B';
+    src: url(assets/fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: 'Lemonmilk-L';
+    src: url(assets/fonts/lemon_milk/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: 'coolvetica-dafont';
+    src: url(assets/fonts/coolvetica/Coolvetica\ Rg.otf);
+}
+@font-face {
+    font-family: 'Jost';
+    src: url(assets/fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(assets/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Parkinsans';
+    src: url(assets/fonts/Parkinsans/Parkinsans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(assets/fonts/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
+}

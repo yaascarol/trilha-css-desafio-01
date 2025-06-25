@@ -1,0 +1,200 @@
+@import url(font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+body {
+
+    background-color: #000000;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#010f27dd, #011020f3, #000000ef), url('assets/images/banner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    border-bottom: 0.8px solid #33A8DB;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.banner .logo {
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    background-color: #00000033;
+}
+
+.banner .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    text-shadow: 1px 1px 5px;
+    text-transform: uppercase;
+    margin: 16px 0px 16px 0px;
+}
+
+.banner-content p {
+    color: #ffffff;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 20px;
+    height: 48px;
+    font-weight: lighter;
+}
+
+.banner-content button {
+    width: 350px;
+    height: 50px;
+    border: 2px solid #33A8DB;
+    color: #33A8DB;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.banner-content button:hover {
+    background-color: #33A8DB29;
+}
+
+#course-content {
+    display: grid;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+}
+
+section{
+    width: 100%;
+    margin: 100px auto 100px auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    margin: 16px 0px 16px 0px;
+}
+
+#course-content p {
+    color: #ffffff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    display: grid;
+    height: 206.4px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+#course-content .modules-list .module {
+    width: 530px;
+    height: 25px;
+    padding: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(37, 37, 37, 0.658);
+    border: 2px solid #33A8DB;
+    border-radius: 50px;
+    align-items: center;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    border-top: 0.8px solid #33A8DB;
+    border-bottom: 0.8px solid #33A8DB;
+    height: 300px;
+    background-image: linear-gradient(#010f27b8, #0110208c, #000000ef), url('assets/images/transform3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 0px;
+}
+
+#transform-world p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 200px;
+    color: #ffffff;
+    text-shadow: rgb(51, 168, 219) 3px 2px 0px;
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 800px;
+    color: #ffffff;
+    gap: 20px;
+}
+
+footer {
+    padding: 60px 0px;
+    border-top: 0.8px solid #33A8DB;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
+}
