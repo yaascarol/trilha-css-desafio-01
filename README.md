@@ -1,9 +1,3 @@
-Desafio do bootcamp Front-end do Zero da DIO com a Ri Happy, com objetivo de realizar a estilização de uma landing page utilizando fundamentos de CSS puro aprendidos nas aulas. Para a realização do desafio, foi passada uma imagem de prévia de como deveria ficar a finalização da Landing Page. Utilizei os fundamentos de CSS aprendidas nas aulas, fiz feitas algumas alterações, como as imagens de fundo e a fonte utilizada, mas o restante fiz o máximo para deixar parecido com a prévia final fornecida.
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 # Desafio 01: Criando sua primeira Landing Page com HTML e CSS
 
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
